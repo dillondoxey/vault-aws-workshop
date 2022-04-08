@@ -18,7 +18,7 @@ layout: true
 
 .footer[
 - Copyright © 2021 HashiCorp
-- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
+- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)]
 
 ---
 name: Table-of-Contents
