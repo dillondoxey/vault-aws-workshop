@@ -6,7 +6,7 @@ count: false
 # Chapter 1  
 ## HashiCorp Vault Overview
 
-![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
+![:scale 15%](images/vault_logo_y.png)
 
 ???
 Chapter 1 introduces Vault
