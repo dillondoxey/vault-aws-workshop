@@ -1,6 +1,6 @@
 name: chapter-1
 class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
+background-image: url(images/hashicorp-title-bkg-aws.jpeg)
 count: false
 
 # Chapter 1  
