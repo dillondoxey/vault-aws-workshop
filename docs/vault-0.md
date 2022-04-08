@@ -1,6 +1,7 @@
 name: vault-title-slide
 class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
+<--- background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg) --->
+background-image: url(images/hashicorp-title-bkg-aws.jpeg)
 count: false
 
 # Vault Workshop
@@ -18,7 +19,7 @@ layout: true
 
 .footer[
 - Copyright © 2021 HashiCorp
-- ![:scale 100%](images/aws-hc-white.png)]
+- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
 
 ---
 name: Table-of-Contents
