@@ -6,8 +6,7 @@ count: false
 # Vault Workshop
 ## Modern Security with Vault and AWS
 
-<!--- [:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png) --->
-![:scale 15%](images/aws-hc-white.png)
+[:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
 
 ???
 This workshop introduces students to Vault.
@@ -19,7 +18,7 @@ layout: true
 
 .footer[
 - Copyright © 2021 HashiCorp
-- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)]
+- ![:scale 100%](images/aws-hc-white.png)]
 
 ---
 name: Table-of-Contents
