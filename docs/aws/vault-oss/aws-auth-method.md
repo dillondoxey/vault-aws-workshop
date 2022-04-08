@@ -112,3 +112,17 @@ Your instructor will provide the URL for the track.
 - Configured the AWS IAM Auth Method
 - Logged In Using the AWS IAM Auth Method
 - Logged Out of Vault
+
+---
+name: conclusion
+# Thank You for Participating!
+.center[![:scale 40%](images/vault_logo.png)]
+
+### For more information please refer to the following links:
+* https://www.vaultproject.io/docs/
+* https://www.vaultproject.io/api/
+* https://learn.hashicorp.com/vault
+
+???
+* Thank the students for their participation
+* Share some Vault links
