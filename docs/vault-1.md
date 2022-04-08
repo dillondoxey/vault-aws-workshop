@@ -117,7 +117,7 @@ name: secrets-engines
 layout: false
 # Vault Secrets Engines
 .center[![:scale 60%](images/vault-engines.png)]
-.center[[Vault Secrets Engines](https://www.vaultproject.io/docs/secrets/)]
+.center[<a href="https://www.vaultproject.io/docs/secrets/" target="_blank">Vault Secrets Engines</a>]
 
 ???
 * Vault provides many out-of-the-box secrets engines.
