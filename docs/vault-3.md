@@ -35,7 +35,7 @@ name: vault-production-serves
 ---
 name: configuring-vault
 # Configuring Vault Servers
-* Vault configuration files can be specified in [HCL](https://github.com/hashicorp/hcl) or JSON.
+* Vault configuration files can be specified in <a href="https://github.com/hashicorp/hcl" target="_blank">HCL</a> or JSON.
 * Common configuration settings include:
   * listener
   * storage

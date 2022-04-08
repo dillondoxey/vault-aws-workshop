@@ -40,7 +40,7 @@ The table of contents for the workshop
 ---
 name: instruqt-tracks
 # Lab Environment Used
-* This workshop uses [Instruqt](https://instruqt.com) for hands-on labs.
+* This workshop uses <a href="https://instruqt.com" target="_blank">Instruqt</a> for hands-on labs.
 * Instruqt labs are run in "tracks" that are divided into "challenges".
 * This workshop uses the following tracks:
     1. **Vault Basics**
