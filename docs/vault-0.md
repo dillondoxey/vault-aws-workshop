@@ -50,4 +50,5 @@ name: instruqt-tracks
 * We'll then cover chapter 7 with the second lab.
 * We'll finish with chapter 8 and the third lab.
 
-Your instructor will provide the URLs for the tracks.
+???
+You will have to provide the links for the tracks: Vault Basics, AWS Auth Method for Vault, AWS Dynamic Secrets with Vault
