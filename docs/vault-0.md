@@ -22,32 +22,6 @@ layout: true
 ]
 
 ---
-name: Link-to-Slide-Deck
-# The Slide Deck
-<br><br>
-### Follow along on your own computer at this link:
-
-https://hashicorp.github.io/field-workshops-vault/slides/multi-cloud/vault-oss/index.html
-
-???
-
-The link to this slide deck
-
----
-name: Introductions
-# Introductions
-
-* Your Name
-* Job Title
-* Secrets Management Experience
-* Favorite Text Editor
-
-???
-* Use this slide to introduce yourself, give a little bit of your background story, then go around the room and have all your participants introduce themselves.
-
-* The favorite text editor question is a good ice breaker, but perhaps more importantly it gives you an immediate gauge of how technical your users are.  
-
----
 name: Table-of-Contents
 # Table of Contents
 
@@ -57,8 +31,8 @@ name: Table-of-Contents
 1. Vault Secrets Engines
 1. Vault Authentication Methods
 1. Vault Policies
-1. Dynamic Database Secrets
-1. Encryption as a Service
+1. Vault AWS Auth Method
+1. Vault AWS Secrets Engine
 
 ???
 The table of contents for the workshop
@@ -70,8 +44,8 @@ name: instruqt-tracks
 * Instruqt labs are run in "tracks" that are divided into "challenges".
 * This workshop uses the following tracks:
     1. **Vault Basics**
-    1. **Vault Dynamic Database Credentials**
-    1. **Vault Encryption as a Service**
+    1. **Vault AWS Auth Method**
+    1. **Vault AWS Dynamic Secrets**
 * We'll cover chapters 1-6 and then do the first lab.
 * We'll then cover chapter 7 with the second lab.
 * We'll finish with chapter 8 and the third lab.
