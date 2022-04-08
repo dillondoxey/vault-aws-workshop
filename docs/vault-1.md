@@ -81,8 +81,7 @@ layout: false
 name: identity-based-security-1
 #Identity Based Security
 .center[![:scale 75%](images/identity-triangle.png)]
-.center[[Identity Based Security and Low Trust Networks](https://www.hashicorp.com/identity-based-security-and-low-trust-networks)
-]
+.center[<a href="https://www.hashicorp.com/identity-based-security-and-low-trust-networks" target="_blank">Identity Based Security and Low Trust Networks</a>]
 
 ???
 * Here we see that Vault has multiple means of authenticating users and applications with its Auth Methods.
