@@ -128,8 +128,7 @@ layout: false
 name: vault-reference-architecture-1
 # Vault Architecture Internals
 .center[![:scale 75%](images/vault_arch.png)]
-.center[[HashiCorp Vault Internals Architecture](https://www.vaultproject.io/docs/internals/architecture/)
-]
+.center[<a href="https://www.vaultproject.io/docs/internals/architecture/" target="_blank">HashiCorp Vault Internals Architecture</a>]
 
 ???
 * Click the link to learn more about the internal's of Vault's architecture.
@@ -149,8 +148,7 @@ name: vault-reference-architecture-2
 name: vault-reference-architecture-3
 # Vault Architecture - Multi-Region
 .center[![:scale 70%](images/vault-ref-arch-replication.png)]
-.center[[Vault Enterprise Replication](https://www.vaultproject.io/docs/enterprise/replication/)
-]
+.center[<a href="https://www.vaultproject.io/docs/enterprise/replication/" target="_blank">Vault Enterprise Replication</a>]
 
 ???
 * Vault Enterprise supports replication between clusters across regions and data centers.
