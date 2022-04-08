@@ -71,7 +71,7 @@ name: vault-aws-auth-methods-ec2-1
 name: vault-aws-auth-methods-ec2-2
 # The EC2 Method (2)
 
-.center[![Vault AWS EC2 Auth Flow](images/vault-aws-ec2-auth-flow.png)]
+.center[![Vault AWS EC2 Auth Flow](aws/vault-oss/images/vault-aws-ec2-auth-flow.png)]
 .center[Explanations of steps on next slide]
 
 ???
