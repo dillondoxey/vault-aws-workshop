@@ -26,9 +26,9 @@ name: Interacting-With-Vault
 # Interacting With Vault
 
 Vault provides several mechanisms for interacting with it:
-* The Vault [CLI](https://www.vaultproject.io/docs/commands/index.html)
-* The Vault [UI](https://learn.hashicorp.com/vault/getting-started/ui)
-* The Vault [API](https://www.vaultproject.io/api-docs/index/)
+* The Vault <a href="https://www.vaultproject.io/docs/commands/index.html" target="_blank">CLI</a>
+* The Vault <a href="https://learn.hashicorp.com/vault/getting-started/ui" target="_blank">UI</a>
+* The Vault <a href="https://www.vaultproject.io/api-docs/index" target="_blank">API</a>
 
 ???
 
@@ -39,7 +39,7 @@ name: Vault-CLI
 # The Vault CLI
 * The Vault CLI is a Go application.
 * It runs on macOS, Windows, Linux, and other operating systems.
-* You can download the latest version [here](https://www.vaultproject.io/downloads/).
+* You can download the latest version <a href="https://www.vaultproject.io/downloads" target="_blank">here</a>.
 
 ???
 * The Vault CLI is distributed as a Go binary.
@@ -53,7 +53,7 @@ name: installing-Vault-CLI
   * Unpack the `vault` binary.
   * Place the binary in your path.
 
-See this [tutorial](https://learn.hashicorp.com/vault/getting-started/install) for more details.
+See this <a href="https://learn.hashicorp.com/vault/getting-started/install" target="_blank">tutorial</a> for more details.
 
 ???
 Installing Vault is easy.
