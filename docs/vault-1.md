@@ -9,17 +9,20 @@ count: false
 ![:scale 15%](images/vault_logo_y.png)
 
 ???
-Chapter 1 introduces Vault
+Lets start off with a Vault Overview, covering how HashiCorp Vault can help you solve the common use cases like secrets management and identity based access.
+
+For this lab, we will not be covereing data encryption, so if you would like to see a deeper dive into this topic please reach out in the Zoom chat and we will connect you with your account team to provide additional demos and hand's on labs.
 
 ---
 name: hashiCorp-vault-overview
 # HashiCorp Vault Overview
-  * HashiCorp Vault is an API-driven, cloud agnostic secrets management system.
+  * HashiCorp Vault is an API-driven, agnostic secrets management system.
   * It allows you to safely store and manage sensitive data in hybrid cloud environments.
-  * You can also use Vault to generate dynamic short-lived credentials, or encrypt application data on the fly.
+  * You can also use Vault to generate dynamic short-lived credentials, certificates, or encrypt application data on the fly.
 
 ???
-This is meant as a high level overview.  For detailed descriptions or instructions please see the docs, API guide, or learning site:
+This is meant as a high level overview. For detailed descriptions or instructions please see the docs, API guide, or learning site:
+
 * https://www.vaultproject.io/docs/
 * https://www.vaultproject.io/api/
 * https://learn.hashicorp.com/vault/
