@@ -9,9 +9,9 @@ count: false
 ![:scale 15%](images/vault_logo_y.png)
 
 ???
-This workshop introduces students to Vault.
+This workshop introduces students to Vault specifically using AWS.
 
-It is cloud agnostic.
+Vault is not limited to just AWS, and can be used in really any hybrid-cloud configuration, and with Vault Enterprise we can include features like scaling and replication as an example to support enterprise scale deployments!
 
 ---
 layout: true
@@ -34,7 +34,11 @@ name: Table-of-Contents
 1. Vault AWS Secrets Engine
 
 ???
-The table of contents for the workshop
+This is what we will be covering today. We will start with lecture, getting everyone familar with Vault and the basic operations. After that, we will then do a Vault Basics lab where you will be able to take what you learned from the lecure, and use a lab to take a deeper "hands-on" approach to Vault.
+
+Once we have completed the basics lab, we will do a lecure for the AWS Auth method, and follow that with a lab.
+
+Finally, we will close out the session with the Vault AWS secrets engine lecture, follwed by a lab and then call it a day!
 
 ---
 name: instruqt-tracks
@@ -50,4 +54,15 @@ name: instruqt-tracks
 * We'll finish with chapter 8 and the third lab.
 
 ???
-You will have to provide the links for the tracks: Vault Basics, AWS Auth Method for Vault, AWS Dynamic Secrets with Vault
+We use Instruqt for our labs, which makes using Vault inside of AWS easy. All that you will need will be a web browser to get going and instructions inside the lab will walk you through what you need to do.
+
+When it is time for the lab, we will use Zoom BreakOut rooms to move everyone into smaller groups. During the breakout rooms the session recording will be inactive. There will also be a HashiCorp or AWS employee in to help with any questions as you move through the lab.
+
+I do have a couple of recommendations to make the lab work as smoothly as possible.
+* Google Chrome, Brave, Internet Edge
+* Disconnect from a VPN if you are using one
+* Read the instructions carefully, and utilize the copy-paste capability inside of the lab if you dont like to type
+* If you have a question, don't be shy and ask a HashiCorp or AWS instructor
+* Have fun, and learn as much as possible
+
+**You will have to provide the links for the tracks: Vault Basics, AWS Auth Method for Vault, AWS Dynamic Secrets with Vault**
