@@ -35,7 +35,7 @@ layout: false
 .center[Also known as the "Castle and Moat" method.]
 
 ???
-* This picture shows the traditional castle and moat security model.
+Traditional security, like we see with on-prem data centers are commonly security with the "Castle and Moat" type of security.
 
 ---
 layout: true
@@ -48,12 +48,16 @@ layout: true
 ---
 name: traditional-security-models
 # The Traditional Security Model
+An easy way to think of this is 4 walls and a pipe to the internet. Using a firewall at the edge and treating anything behind that as a high-trust network.
+
 * Traditional security models were built upon the idea of perimeter based security.
 * There would be a firewall, and inside that firewall it was assumed one was safe.
 * Resources such as databases were mostly static.  As such rules were based upon IP address, credentials were baked into source code or kept in a static file on disk.
 
 ???
-This slide discusses the traditional security model
+What we all have seen is there are a lot of issues with this security model, because most of it is based on an IP address and some hardware configurations. 
+
+This model does not work when we start to look at moving to AWS because we dont control the perimeter, and we also move away from the idea of static ip addresses for our workloads.
 
 ---
 name: problems-with-traditional-security-models
@@ -85,7 +89,8 @@ name: identity-based-security-1
 .center[<a href="https://www.hashicorp.com/identity-based-security-and-low-trust-networks" target="_blank">Identity Based Security and Low Trust Networks</a>]
 
 ???
-* Here we see that Vault has multiple means of authenticating users and applications with its Auth Methods.
+* Starting at the top, clients can be people, machines, or even API's
+* We also see that Vault has multiple means of authenticating users and applications with its many different Auth Methods.
 * Vault can manage many types of secrets and excels at generating short-lived, dynmamic secrets.
 * Vault's ACL policies are associated with tokens that users and applications use to access secrets after authenticating.
 * Tokens can only read/write secrets that its policies allow.
@@ -138,8 +143,7 @@ name: vault-reference-architecture-1
 name: vault-reference-architecture-2
 # Vault Architecture - High Availability
 .center[![:scale 60%](images/vault-ref-arch-lb.png)]
-.center[[Vault High Availability](https://www.vaultproject.io/docs/concepts/ha/)
-]
+.center[<a href="https://www.vaultproject.io/docs/concepts/ha" target="_blank">Vault High Availability</a>]
 
 ???
 * Vault allows multiple servers to be combined in a highly available cluster within a single cloud region or physical data center.
