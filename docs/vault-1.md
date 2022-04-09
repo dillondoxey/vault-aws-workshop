@@ -48,14 +48,13 @@ layout: true
 ---
 name: traditional-security-models
 # The Traditional Security Model
-An easy way to think of this is 4 walls and a pipe to the internet. Using a firewall at the edge and treating anything behind that as a high-trust network.
 
 * Traditional security models were built upon the idea of perimeter based security.
 * There would be a firewall, and inside that firewall it was assumed one was safe.
-* Resources such as databases were mostly static.  As such rules were based upon IP address, credentials were baked into source code or kept in a static file on disk.
+* Resources such as databases were mostly static. As such rules were based upon IP address, credentials were baked into source code or kept in a static file on disk.
 
 ???
-What we all have seen is there are a lot of issues with this security model, because most of it is based on an IP address and some hardware configurations. 
+An easy way to think of this is 4 walls and a pipe to the internet. Using a firewall at the edge and treating anything behind that as a high-trust network.
 
 This model does not work when we start to look at moving to AWS because we dont control the perimeter, and we also move away from the idea of static ip addresses for our workloads.
 
@@ -69,7 +68,7 @@ name: problems-with-traditional-security-models
   * Revoking compromised credentials could break
 
 ???
-* This slide describes some of the problems with the traditional security model.
+What we all have seen is there are a lot of issues with this security model, because most of it is based on an IP address and some hardware configurations and static secrets in our applications.
 ---
 name: the-new-way
 layout: false
