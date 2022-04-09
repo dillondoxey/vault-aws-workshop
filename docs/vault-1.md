@@ -14,8 +14,6 @@ Chapter 1 introduces Vault
 ---
 name: hashiCorp-vault-overview
 # HashiCorp Vault Overview
-![:scale 25%](images/vault_logo_y.png)
-
   * HashiCorp Vault is an API-driven, cloud agnostic secrets management system.
   * It allows you to safely store and manage sensitive data in hybrid cloud environments.
   * You can also use Vault to generate dynamic short-lived credentials, or encrypt application data on the fly.

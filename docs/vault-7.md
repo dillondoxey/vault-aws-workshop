@@ -1,12 +1,12 @@
 name: chapter-7
 class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
+background-image: url(images/hashicorp-title-bkg-aws.jpeg)
 count: false
 
 # Chapter 7    
 ## Dynamic Database Secrets
 
-![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
+![:scale 15%](images/vault_logo_y.png)
 
 ???
 

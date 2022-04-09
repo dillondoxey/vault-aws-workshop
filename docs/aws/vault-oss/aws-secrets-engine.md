@@ -1,11 +1,11 @@
 name: vault-title-slide
 class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
+background-image: url(images/hashicorp-title-bkg-aws.jpeg)
 count: false
 
 # Vault's AWS Secrets Engine
 
-![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
+![:scale 15%](images/vault_logo_y.png)
 
 ???
 * Let's learn about Vault's AWS secrets engine.
