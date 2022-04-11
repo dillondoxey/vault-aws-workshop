@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/mtharpe/vault-aws-workshop/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/mtharpe/vault-aws-workshop/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/mtharpe/vault-aws-workshop/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/mtharpe/vault-aws-workshop/actions/workflows/pages/pages-build-deployment)
 
 # Vault-AWS-Workshop
 
