@@ -23,7 +23,7 @@ layout: true
 ---
 name: vault-policies
 # Vault Policies
-* Vault Policies restrict the secrets users and applications have access to.
+* Vault Policies restrict access to the secrets, users, and applications
 * Vault follows the practice of least privilege, *denying* access by default.
 * Vault administrators must explicity grant users and applications access to specific paths with policy statements.
 * In addition to specifying paths, policies also specify a set of capabilities for those paths.
@@ -78,7 +78,7 @@ name: vault-policy-commands
 # Vault Policy CLI Commands
 * Vault policies can be added to a Vault server using Vault's CLI, UI, or API.
 * The command to add a policy with the CLI is `vault policy write`.
-* Here is a command that creates a policy called "lob-A-dept-1" from the HCL file "lob-A-dept-1-policy.hcl":<br>
+* Here is an example command that creates a policy called "lob-A-dept-1" from the HCL file "lob-A-dept-1-policy.hcl":<br>
 `vault policy write lob-A-dept-1 lob-A-dept-1-policy.hcl`
 * Here is a command that associates this policy with a Userpass user:<br>
 `vault write auth/userpass/users/joe/policies policies=lob-A-dept-1`

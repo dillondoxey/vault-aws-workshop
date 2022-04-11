@@ -169,7 +169,7 @@ name: vault-api-3
 
 * The sys/health endpoint didn't require any authentication.
 * But most Vault API calls do require authentication.
-* This is done with a Vault token that is provided with the `X-Vault-Token` header.
+* Authentication is done with a Vault token that is provided with the `X-Vault-Token` header.
 
 ???
 * Talk about how most Vault HTTP API calls will require authentication with a Vault token.

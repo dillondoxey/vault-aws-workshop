@@ -60,7 +60,7 @@ name: running-vault
 ---
 name: initializing-vault
 # Initializing Vault Clusters
-* Recall that a Vault cluster runs multiple Vault servers.
+* A Vault cluster runs multiple Vault servers.
 * Each Vault cluster must be initialized once.
 * This is done with the `vault operator init` command.
 * The number of key shares and the key threshold can be specified with the `-key-shares` and `key-threshold` options.
@@ -74,7 +74,7 @@ name: unsealing-vault
 # Unsealing Vault Servers
 * Each Vault server must be unsealed each time it is started.
 * You cannot use the server until you unseal it.
-* This is done with the `vault operator unseal` command, using the unseal keys returned when you initialized the cluster.
+* Use the `vault operator unseal` command, using the unseal keys returned when you initialized the cluster.
 
 ???
 * Describe Vault's `unseal` command.

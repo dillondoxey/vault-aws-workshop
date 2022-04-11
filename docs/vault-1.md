@@ -112,7 +112,7 @@ Vault was designed to address the security needs of modern applications.  It dif
 * Identity based rules allowing security to stretch across network perimeters
 * Dynamic, short lived credentials that are rotated frequently
 * Individual accounts to maintain provenance (tie action back to entity)
-* Credentials and Entities that can easily be invalidated
+* Easily Validated Credentials and Entities
 
 ???
 * This slide discusses how Vault is designed for modern applications.

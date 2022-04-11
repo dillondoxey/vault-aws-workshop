@@ -53,7 +53,7 @@ name:lab-vault-basics-challenge-1-instructions
 name: lab-vault-basics-challenge-2
 # 👩‍💻 Challenge 2: Run a Vault "Dev" Server
 * In this lab, you'll run your first Vault server in "Dev" mode.
-* You'll also write your first secret to Vault and use the UI.
+* You will also write your first secret to Vault and use the UI.
 * Instructions:
   * If the track does not do it for you, click the "Your First Secret" challenge of the "Vault Basics" track.
   * Then click the green "Start" button.
@@ -68,8 +68,8 @@ name: lab-vault-basics-challenge-2
 name: lab-vault-basics-challenge-3
 # 👩‍💻 Challenge 3: Use the Vault HTTP API
 * In this lab, you'll use the Vault HTTP API.
-* You'll first check the health of your Vault server.
-* You'll then read your `my-first-secret` secret from Vault.
+* First check the health of your Vault server.
+* Then read your `my-first-secret` secret from Vault.
 * Instructions:
   * If the track does not do it for you, click the "The Vault API" challenge in the "Vault Basics" track.
   * Then click the green "Start" button.
@@ -83,7 +83,7 @@ name: lab-vault-basics-challenge-3
 name: lab-vault-basics-challenge-4
 # 👩‍💻 Challenge 4: Run a Vault "Prod" Server
 * In this lab, you'll run your first Vault server in "Prod" mode.
-* You'll learn how to initialize and unseal a Vault server.
+* You will learn how to initialize and unseal a Vault server.
 * Instructions:
   * If the track does not do it for you, click the "Run a Production Server" challenge of the "Vault Basics" track.
   * Then click the green "Start" button.

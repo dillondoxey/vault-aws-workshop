@@ -49,8 +49,8 @@ name:vault-auth-methods-2
 <div style="float: right; width: 50%;">
 <u>Methods for Applications</u>
 <ul>
-<li>AppRole</li>
 <li>AWS</li>
+<li>AppRole</li>
 <li>Azure</li>
 <li>Google Cloud</li>
 <li>Kubernetes</li>
