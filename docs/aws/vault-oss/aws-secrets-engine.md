@@ -111,7 +111,7 @@ name: vault-aws-dynamic-secrets-4
 name: vault-aws-dynamic-secrets-5
 # Generating Credentials for AWS with Vault
 * Most commonly, users leverage the `iam_user` Vault AWS secrets engine.
-* This is what we will do in the lab.
+* This This lab will leverage the AWS secrets engine.
 * For more information on the
 `assumed_role` and `federation_token` secrets engines, review the [STS AssumeRole](https://www.vaultproject.io/docs/secrets/aws/#sts-assumerole) and the [STS Federation Tokens](https://www.vaultproject.io/docs/secrets/aws/#sts-credentials) documentation.
 

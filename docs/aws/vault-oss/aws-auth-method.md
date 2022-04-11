@@ -22,7 +22,7 @@ layout: true
 name: vault-aws-auth-method-1
 # Authenticating to Vault using AWS
 * Auth methods are the components in Vault that perform authentication.
-* They are responsible for assigning identity and policies to users, programs, or machines.
+* Auth methods are responsible for assigning identity and policies to users, programs, or machines.
 * Vault's [AWS Auth Method](https://www.vaultproject.io/docs/auth/aws/) provides an automated mechanism to retrieve a Vault token for IAM principals and AWS EC2 instances.
 * This method securely provides your AWS-based
 applications access to secrets stored in HashiCorp Vault without passwords.
@@ -49,8 +49,8 @@ instances in IAM instance profiles, Lambda functions, and others.
 name: vault-aws-auth-methods-iam-2
 # The IAM Method (2)
 * The `iam` auth method authenticates by having clients provide a specially signed AWS API request.
-* The method then passes that to AWS to validate the signature and tell Vault who created it.
-* The actual AWS secret access key is never transmitted over the wire.
+* The method then passes that to AWS to validate the signature and notifies Vault who created it.
+* The actual AWS secret access key is never transmitted.
 * The AWS signature algorithm automatically expires requests after 15 minutes, providing simple and robust protection against replay attacks.
 
 ???
@@ -61,7 +61,7 @@ name: vault-aws-auth-methods-ec2-1
 # The EC2 Method (1)
 * With the `ec2` method, AWS is treated as a Trusted Third Party.
 * Cryptographically signed dynamic metadata information that uniquely represents each EC2 instance is used for authentication
-* This metadata information is automatically supplied by AWS to all EC2 instances.
+* Metadata information is automatically supplied by AWS to all EC2 instances.
 
 #### .center[ The `ec2` auth method only authenticates AWS EC2 instances.]
 
@@ -98,7 +98,7 @@ class: compact
 authentication workflow and each can solve different use cases.
 * Please note the following points:
   * The `ec2` method was implemented before the primitives to implement the iam method were supported by AWS.
-  * *The `iam` method is the recommended approach since it is more flexible and uses best practices to perform access control and authentication.*
+  * **The `iam` method is the recommended approach since it is more flexible and uses best practices to perform access control and authentication.**
 
 ---
 name: lab-aws-auth-method-for-vault
