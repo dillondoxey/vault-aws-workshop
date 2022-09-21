@@ -83,7 +83,7 @@ name: vault-aws-dynamic-secrets-3
 # Generating iam_user Credentials
 * Vault will create an IAM user for each lease and attach the managed IAM policies as
 specified in the role to the user.
-* Vault will then generate an access key and secret key forthe IAM user and return them to the caller.
+* Vault will then generate an access key and secret key for the IAM user and return them to the caller.
 
 ???
 * Here are some details on generating iam_user credentials.
@@ -111,7 +111,7 @@ name: vault-aws-dynamic-secrets-4
 name: vault-aws-dynamic-secrets-5
 # Generating Credentials for AWS with Vault
 * Most commonly, users leverage the `iam_user` Vault AWS secrets engine.
-* This This lab will leverage the AWS secrets engine.
+* This lab will leverage the AWS secrets engine.
 * For more information on the
 `assumed_role` and `federation_token` secrets engines, review the [STS AssumeRole](https://www.vaultproject.io/docs/secrets/aws/#sts-assumerole) and the [STS Federation Tokens](https://www.vaultproject.io/docs/secrets/aws/#sts-credentials) documentation.
 
