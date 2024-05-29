@@ -1,4 +1,4 @@
-[![pages-build-deployment](https://github.com/mtharpe/vault-aws-workshop/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/mtharpe/vault-aws-workshop/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/dillondoxey/vault-aws-workshop/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/dillondoxey/vault-aws-workshop/actions/workflows/pages/pages-build-deployment)
 
 # Vault-AWS-Workshop
 
@@ -6,4 +6,4 @@
 This is a copy of the HashiCorp Vault workshop, making changes to support only AWS technology.
 
 ### Link
-[Workshop URL](https://mtharpe.github.io/vault-aws-workshop/#1)
+[Workshop URL](https://dillondoxey.github.io/vault-aws-workshop/#1)
